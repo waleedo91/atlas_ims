@@ -1,0 +1,21 @@
+.my-slide {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.ims-slide {
+  position: relative;
+  text-align: center;
+}
+
+.hello {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+}
+
+.ims-pic {
+  height: 300px;
+}
