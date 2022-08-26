@@ -10,6 +10,7 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../contactUs.css">
   <title>Atlus IMS Contact Us</title>
 </head>
 
@@ -64,26 +65,32 @@
   </nav>
 </header>
 
-<body style="background-image: url('/images/contact-us-bg.webp');">
-  <div class="container my-3 rounded-4" style="background-color: blue; width: 500px;">
+<body>
+  <div class="container my-3 rounded-4">
     <h1 class="text-center my-3 text-white">Contact Us</h1>
     <form>
+      <!-- First name input -->
       <div class="form-floating mb-3">
         <input type="text" class="form-control" id="firstName" placeholder="First Name">
         <label for="floatingInput">First Name</label>
       </div>
+      <!-- Last name input -->
       <div class="form-floating mb-3">
         <input type="text" class="form-control" id="lastName" placeholder="Last Name">
         <label for="floatingInput">Last Name</label>
       </div>
+      <!-- Email input -->
       <div class="form-floating mb-3">
         <input type="email" class="form-control" id="email" placeholder="name@email.com">
         <label for="floatingInput">Email</label>
-      <div class="mb-3">
-        <label for="textarea" class="form-label text-white">Message</label>
-        <textarea class="form-control" id="message" rows="5"></textarea>
       </div>
-      <button class="btn mb-3" style="background-color: white;">Submit Message</button>
+      <!-- Message input -->
+      <div class="form-floating mb-3">
+        <textarea class="form-control" id="message" placeholder="message"></textarea>
+        <label for="floatingInput" class="form-label">Message</label>
+      </div>
+
+      <button class="btn mb-3" id="form-submit">Submit Message</button>
     </form>
   </div>
   

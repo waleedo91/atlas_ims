@@ -1,0 +1,15 @@
+body {
+  background-image: url('/images/contact-us-bg.webp');
+}
+
+.container {
+  background-color: blue; width: 500px;
+}
+
+#message {
+  height: 150px;
+}
+
+#form-submit {
+  background-color: white;
+}
