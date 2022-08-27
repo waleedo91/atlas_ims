@@ -32,11 +32,12 @@
   width: 50px;
 }
 
-#iam {
+#high-quality {
   width: 10px;
+  color: black;
 }
 
-#single-sign-on {
+#prove-method {
   color: black;
 }
 
@@ -69,4 +70,3 @@
   align-items: center;
   text-align: center;
 }
-
