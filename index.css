@@ -48,3 +48,25 @@
 .carousel-indicators {
   bottom: 220px;
 }
+
+/* Why Atlas Section */
+.why_container {
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.why-image {
+  width: 50%;
+}
+
+.why-card-flex {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
