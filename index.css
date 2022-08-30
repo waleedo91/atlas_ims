@@ -125,8 +125,8 @@ section h3 {
 }
 
 .box img {
-  height: 100px;
-  width: 100px;
+  height: auto;
+  width: 160px;
 }
 
 .box:hover {
@@ -134,7 +134,44 @@ section h3 {
 }
 
 @media only screen and (max-width: 500px) {
+
+  section {
+    height: 100vh;
+  }
+
+  .partners-header {
+    margin-bottom: 10px;
+  }
+
+  .partners-container {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: column wrap;
+  }
+
+  .partners-link {
+    width: 150px;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .contact-us {
+    margin: 0;
+    width: 100%;
+  }
+
   .form-ui {
+    width: 100%;
+  }
+
+  .container {
     width: 100%;
   }
 }
