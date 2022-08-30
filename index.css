@@ -184,5 +184,5 @@ section h3 {
   }
 
   /* there is a glitch involving carousel-control-next and carousel-control-prev. 
-  The divs for these two extends to the bottom of the screen. This needs to be looked into -SS */
+  The divs for these two extends to the bottom of the screen on mobile devices. This needs to be looked into. -SS */
 }
