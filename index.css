@@ -52,7 +52,7 @@
 /* Why Atlas Section */
 .why_container {
   display: flex;
-  border: 1px solid black;  /* does this need to be here? */
+  /* border: 1px solid black; */ /* does this need to be here? */
   align-items: center;
   margin: 0 auto;
   flex-direction: column;
@@ -64,7 +64,7 @@
 
 .why-card-flex {
   display: flex;
-  border: 1px solid black; /* does this need to be here? */
+  /* border: 1px solid black; */ /* does this need to be here? */
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -136,7 +136,7 @@ section h3 {
 @media only screen and (max-width: 500px) {
 
   section {
-    height: 100vh;
+    height: auto;
   }
 
   .partners-header {
@@ -151,15 +151,22 @@ section h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: column wrap;
+
+  }
+
+  .partners-header {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .partners-link {
-    width: 150px;
+    width: 70%;
   }
 
   .box {
-    width: 80%;
+    width: 100%;
   }
 
   .contact-us {
@@ -173,5 +180,9 @@ section h3 {
 
   .container {
     width: 100%;
+    height: auto;
   }
+
+  /* there is a glitch involving carousel-control-next and carousel-control-prev. 
+  The divs for these two extends to the bottom of the screen. This needs to be looked into -SS */
 }
