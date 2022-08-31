@@ -1,5 +1,13 @@
 /* Carousel CSS */
 
+.next-button {
+  height: 10%;
+}
+
+.prev-button {
+  height: 10%;
+}
+
 .carousel-container {
   margin-top: 15px;
 }
