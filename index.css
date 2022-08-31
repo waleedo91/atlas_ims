@@ -1,3 +1,7 @@
+.partner-img {
+  width: 100%;
+}
+
 /* Carousel CSS */
 
 .next-button {
@@ -96,12 +100,12 @@
 
 .form-ui {
   background-color: blue;
-  width: 500px;
+  width: 100%;
   margin: auto;
 }
 
 section {
-  height: 60vh;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -112,20 +116,37 @@ section {
 
 section h3 {
   font-size: 3rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .partners-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: row wrap;
+  /* flex-direction: row; --desktop */
+  flex-direction: column;
+  /* flex-wrap: row wrap; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+.partners-header {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.partners-link {
+  width: 70%;
 }
 
 .box {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 100%;
+  /* width: 200px; */
   height: 150px;
   padding: 1em;
   margin: 1em 0.75em;
