@@ -22,7 +22,7 @@
 
 .top-left {
   position: absolute;
-  top: 8px;
+  top: 10px;
   left: 16px;
   color: white;
 }
@@ -30,19 +30,13 @@
 .top-right {
   position: absolute;
   top: 8px;
-  right: 16px;
-}
-
-.center-left {
-  position: absolute;
-  top: 70px;
-  left: 10px;
-  width: 50px;
+  right: 72px;
+  width: 10px;
 }
 
 #high-quality {
   width: 10px;
-  color: black;
+  color: white;
 }
 
 #prove-method {
