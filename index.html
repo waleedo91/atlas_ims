@@ -10,7 +10,11 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+<<<<<<< HEAD
     <link rel="stylesheet" href="/index.css">
+=======
+    <link rel="stylesheet" href="index.css">
+>>>>>>> master
     <title>Atlas</title>
   </head>
   <body>
@@ -21,7 +25,7 @@
         style="background-color: blue"
         >
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">ATLAS IMS</a>
+            <a class="navbar-brand" href="./index.html">ATLAS IMS</a>
             <button
             class="navbar-toggler"
             type="button"
@@ -47,7 +51,7 @@
                 <a class="nav-link" href="#">About Us</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="./pages/contactUs.html">Contact Us</a>
                 </li>
                 
                 </li>
@@ -66,22 +70,147 @@
         </nav>
     </header>
 
-    <div>
-      <h2 class="text-center mt-3">Partners</h2>
-      <div class="container my-5">
-        <div class="partner-list row align-items-end">
-          <div class="partner col-4">
-            <img src="images/sailpoint.png" alt="SailPoint" class="partner-img">
+    <main>
+      <div class="text-center mission-statement my-5">
+        <h2>Our Mission</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus recusandae fugit quis perferendis tempore eveniet error assumenda voluptas. Sapiente consequatur nihil quos, doloremque aliquid autem illo odit odio voluptatem repellat praesentium ab, temporibus provident eligendi iure libero possimus? Porro, voluptates. Odit quaerat maiores obcaecati repudiandae quia quidem maxime quo dolorem.
+        </p>
+      </div>
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/iam.png" class="d-block w-100 slide-pic" alt="Identity Access Management">
+            <h3 class="slide-header top-left" id="iam">Identity Access Management</h3>
           </div>
-          <div class="partner col-4">
-            <img src="images/okta.png" alt="Okta" class="partner-img">
+          <div class="carousel-item">
+            <img src="./images/single_sign_on.png" class="d-block w-100 slide-pic" alt="Single Sign On">
+            <h3 class="slide-header top-right" id="single-sign-on">Single Sign On</h3>
           </div>
-          <div class="partner col-4">
-            <img src="images/omada.png" alt="Omada" class="partner-img">
+          <div class="carousel-item">
+            <img src="./images/data_governance.png" class="d-block w-100 slide-pic" alt="Data Governance">
+            <h3 class="slide-header center-left" id="data-gov">Data Governance</h3>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/workforce_identity.png" class="d-block w-100 slide-pic" alt="Workforce Identity">
+            <h3 class="slide-header top-right">Workforce Identity</h3>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/customer_identity.png" class="d-block w-100 slide-pic" alt="Customer Identity">
+            <h3 class="slide-header top-left" id="customer-id">Customer Identity</h3>
+          </div>
+        </div>
+        <button class="carousel-control-prev scroll-button" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next scroll-button" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+
+      <div class="why_container">
+        <div class="card mb-3 why-card" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="why-card-flex">
+
+              <div class="col-md-4">
+                <img src="./images/high-quality.png" class="img-fluid rounded-start why-image" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">High Quality</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 why-card" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="why-card-flex">
+              <div class="col-md-4">
+                <img src="./images/proven-methodology.png" class="img-fluid rounded-start why-image" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Proven Methodology</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0 why-card">
+            <div class="why-card-flex">
+
+              <div class="col-md-4">
+                <img src="./images/vendor-neutral.png" class="img-fluid rounded-start why-image" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Vendor Neutral</h5>
+                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <section>
+        <h3 class="text-white text-center partners-header">Our Partners</h3>
+        <div class="partners-container">
+          <a href="https://www.sailpoint.com/" class="partners-link">
+            <div class="box">
+              <img src="/images/sailpoint.png" alt="">
+            </div>
+          </a>
+          <a href="https://www.okta.com/" class="partners-link">
+            <div class="box">
+              <img src="/images/okta.png" alt="">
+            </div>
+          </a>
+          <a href="https://omadaidentity.com/" class="partners-link">
+            <div class="box">
+              <img src="/images/omada.png" alt="">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <div class="contact-us">
+        <div class="container my-3 rounded-4 form-ui">
+          <h1 class="text-center my-3 text-white">Contact Us</h1>
+          <form>
+            <!-- First name input -->
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="firstName" placeholder="First Name">
+              <label for="floatingInput">First Name</label>
+            </div>
+            <!-- Last name input -->
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+              <label for="floatingInput">Last Name</label>
+            </div>
+            <!-- Email input -->
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="email" placeholder="name@email.com">
+              <label for="floatingInput">Email</label>
+            </div>
+            <!-- Message input -->
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" placeholder="message" style="height: 150px"></textarea>
+              <label for="floatingInput" class="form-label" rows="5">Message</label>
+            </div>
+            <button class="btn mb-3 text-center" id="form-submit" style="background-color: white;">Submit Message</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
 
     <script src="index.js"></script>
     <script
