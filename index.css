@@ -190,6 +190,7 @@
 
   .why-image {
     width: 95%;
+    padding-bottom: 10px;
   }
 
   .card-title {
@@ -200,12 +201,9 @@
     height: auto;
   }
 
-  .why-card-flex img {
-    justify-content: center;
-  }
-
   .card-content {
     justify-content: center;
+    height: auto;
   }
   
   .partners-outerdiv {
