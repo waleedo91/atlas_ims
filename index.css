@@ -85,6 +85,8 @@
   margin-top: 10px;
 }
 
+
+
 .mission-statement {
   max-width: 80%;
   margin: auto;
@@ -173,6 +175,38 @@
 
 
 @media screen and (min-width: 600px) {
+
+  .card-width {
+    max-width: 60%;
+  }
+
+  .card-outerdiv-left {
+    float: left;
+  }
+
+  .card-outerdiv-right {
+    float: right;
+  }
+
+  .why-image {
+    width: 95%;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .why-card-flex {
+    height: auto;
+  }
+
+  .why-card-flex img {
+    justify-content: center;
+  }
+
+  .card-content {
+    justify-content: center;
+  }
   
   .partners-outerdiv {
     display: flex;
