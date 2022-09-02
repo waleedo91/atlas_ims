@@ -4,17 +4,9 @@
 
 /* Carousel CSS */
 
-/* .next-button {
-  height: 10%;
-}
-
-.prev-button {
-  height: 10%;
-} */
-
 .carousel-container {
   margin-top: 15px;
-  width: 98%;
+  width: auto;
   margin: 0 auto;
   padding: 0;
 }
@@ -24,7 +16,7 @@
 }
 
 .slide-pic {
-  height: 30vh;
+  height: auto;
 }
 
 .top-left {
@@ -42,12 +34,18 @@
 }
 
 #high-quality {
-  width: 10px;
-  color: white;
+  /* width: 10px; */
+  color: black;
 }
 
 #prove-method {
-  color: black;
+  color: white;
+}
+
+#vendor-neutral {
+  /* width: 10px; */
+  color: white;
+  padding-right: 30px;
 }
 
 #customer-id {
@@ -173,8 +171,11 @@
   margin-left: 15px;
 }
 
-
 @media screen and (min-width: 600px) {
+
+  .slide-pic {
+    height: 50vh;
+  }
 
   .card-width {
     max-width: 60%;
